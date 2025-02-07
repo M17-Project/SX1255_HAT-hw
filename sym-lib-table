@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SX1255IWLTRT")(type "KiCad")(uri "${KIPRJMOD}/parts/SX1255IWLTRT.kicad_sym")(options "")(descr ""))
+)
