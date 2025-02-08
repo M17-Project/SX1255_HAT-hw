@@ -5,6 +5,10 @@ Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 
 ![Board preview](./SX1255_HAT-hw.png)
 
+## Usage
+Sample Raspberry Pi code for SX1255 control can be found [here](https://gist.github.com/sp5wwp/25fa989ebd98b3b707eadae9b63af679).<br>
+[I2S slave overlay](https://github.com/AkiyukiOkayasu/RaspberryPi_I2S_Slave) is required.
+
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
