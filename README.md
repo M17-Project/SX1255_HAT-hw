@@ -3,6 +3,8 @@
 # SX1255_HAT-hw
 Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 
+![Board preview](./SX1255_HAT-hw.png)
+
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
