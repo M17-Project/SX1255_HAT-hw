@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SX1255 RPi Zero Shield")
-		(date "8-02-2025")
+		(date "10-02-2025")
 		(rev "A")
 		(company "M17 Foundation")
 		(comment 1 "Wojciech SP5WWP")
@@ -4567,7 +4567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 114.3 107.95 0)
 			(effects
 				(font
@@ -4654,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 58.42 139.7 0)
 			(effects
 				(font
@@ -4742,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5165,7 +5165,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "815-AISC-0603-R039-J"
+		(property "MPN" "AISC-0603-R039J-T"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -5410,7 +5410,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 102.87 139.7 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 96.52 107.95 0)
 			(effects
 				(font
@@ -5652,7 +5652,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 93.98 139.7 0)
 			(effects
 				(font
@@ -5823,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "603-AC0603JRNP9BN270"
+		(property "MPN" "AC0603JRNPO9BN270"
 			(at 143.51 48.26 0)
 			(effects
 				(font
@@ -5909,7 +5909,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "77-VJ0603A330KXAPBC"
+		(property "MPN" "VJ0603A330KXAPW1BC"
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 71.12 64.77 0)
 			(effects
 				(font
@@ -6230,7 +6230,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "737-RF204AT0050G"
+		(property "MPN" "RF2-04A-T-00-50-G"
 			(at 179.07 48.26 0)
 			(effects
 				(font
@@ -6701,7 +6701,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 76.2 139.7 0)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "737-RF204AT0050G"
+		(property "MPN" "RF2-04A-T-00-50-G"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 85.09 139.7 0)
 			(effects
 				(font
@@ -7819,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 105.41 107.95 0)
 			(effects
 				(font
@@ -8028,7 +8028,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "815-AISC-0603-R082-J"
+		(property "MPN" "AISC-0603-R082J-T"
 			(at 160.02 53.34 0)
 			(effects
 				(font
@@ -8256,7 +8256,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 67.31 139.7 0)
 			(effects
 				(font
@@ -8344,7 +8344,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "947-SX1255IWLTRT"
+		(property "MPN" "SX1255IWLTRT"
 			(at 162.56 876.2 0)
 			(effects
 				(font

@@ -263,7 +263,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -502,7 +502,7 @@
 				)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1458,7 +1458,7 @@
 				)
 			)
 		)
-		(property "MPN" "603-AC0603JRNP9BN270"
+		(property "MPN" "AC0603JRNPO9BN270"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1840,7 +1840,7 @@
 				)
 			)
 		)
-		(property "MPN" "737-RF204AT0050G"
+		(property "MPN" "RF2-04A-T-00-50-G"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2386,7 +2386,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2625,7 +2625,7 @@
 				)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2851,7 +2851,7 @@
 				)
 			)
 		)
-		(property "MPN" "815-AISC-0603-R082-J"
+		(property "MPN" "AISC-0603-R082J-T"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3552,7 +3552,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3791,7 +3791,7 @@
 				)
 			)
 		)
-		(property "MPN" "77-VJ0603A330KXAPBC"
+		(property "MPN" "VJ0603A330KXAPW1BC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4267,7 +4267,7 @@
 				)
 			)
 		)
-		(property "MPN" "947-SX1255IWLTRT"
+		(property "MPN" "SX1255IWLTRT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5422,7 +5422,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5661,7 +5661,7 @@
 				)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5887,7 +5887,7 @@
 				)
 			)
 		)
-		(property "MPN" "815-AISC-0603-R039-J"
+		(property "MPN" "AISC-0603-R039J-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6139,7 +6139,7 @@
 				)
 			)
 		)
-		(property "MPN" "80-C0603C103M4RECLR"
+		(property "MPN" "C0603C103M4REC7411"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6378,7 +6378,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6759,7 +6759,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7476,7 +7476,7 @@
 				)
 			)
 		)
-		(property "MPN" "581-06035G104Z"
+		(property "MPN" "06035G104ZAT2A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7716,7 +7716,7 @@
 				)
 			)
 		)
-		(property "MPN" "737-RF204AT0050G"
+		(property "MPN" "RF2-04A-T-00-50-G"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
