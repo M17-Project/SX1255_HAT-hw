@@ -41,7 +41,7 @@ while(1)
 }
 ```
 
-### Example TX CLI
+### Example TX with ZeroMQ
 ```
 ./zmq-sub 192.168.50.243:17018 | aplay -t raw -f S32_LE -r 192000 -c 2 --device="hw:0,0"
 ```
