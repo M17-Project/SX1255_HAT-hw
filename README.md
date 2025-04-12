@@ -46,6 +46,13 @@ while(1)
 ./zmq-sub 192.168.50.243:17018 | aplay -t raw -f S32_LE -r 192000 -c 2 --device="hw:0,0"
 ```
 
+## Example GNU Radio flowgraphs
+There are 2 demo flowgraphs available:
+- [*cari_sx1255_rx_demo.grc*](https://github.com/M17-Project/CARI/blob/main/gr_demos/cari_sx1255_rx_demo.grc)
+- [*cari_sx1255_multicarrier_tx_demo.grc*](https://github.com/M17-Project/CARI/blob/main/gr_demos/cari_sx1255_multicarrier_tx_demo.grc)
+
+The RX demo also provides a set of sinc compensating FIR filter taps through the `Decimating FIR Filter` block.
+
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
