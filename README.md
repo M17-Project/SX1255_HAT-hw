@@ -7,12 +7,12 @@ Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 
 ## Usage
 ### RPi sample config code
-Sample Raspberry Pi code for SX1255 control can be found [here](https://gist.github.com/sp5wwp/25fa989ebd98b3b707eadae9b63af679).<br>
-[I2S slave overlay](https://github.com/AkiyukiOkayasu/RaspberryPi_I2S_Slave) is required. Sample rate for both RX and TX is 125kHz.
+Sample Raspberry Pi code for SX1255 control can be found [here](https://github.com/M17-Project/LinHT-utils/tree/main/sx1255).<br>
+[I2S slave overlay](https://github.com/AkiyukiOkayasu/RaspberryPi_I2S_Slave) is required. Sample rate for both RX and TX can be set to 125, 250, or 500kHz.
 
-RX/TX frequency setting:
+RX/TX frequency setting (500kHz sample rate):
 ```
-./sx1255-spi 435000000 438000000
+./sx1255-spi -s 500-r 435000000 -t 438000000
 ```
 
 ### Example RX with ZeroMQ
