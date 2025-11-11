@@ -12,7 +12,7 @@ Sample Raspberry Pi code for SX1255 control can be found [here](https://github.c
 
 RX/TX frequency setting (500kHz sample rate):
 ```
-./sx1255-spi -s 500-r 435000000 -t 438000000
+./sx1255-spi -s 500 -r 435000000 -t 438000000
 ```
 
 ### Example RX with ZeroMQ
