@@ -5,6 +5,9 @@ Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 
 ![Board preview](./SX1255_HAT-hw.png)
 
+> [!NOTE]
+> In case the TCXO used in the project is not available, `TG2016SMN 32.0000M-MCGNNM0` is a valid replacement.
+
 ## Usage
 ### RPi sample config code
 Sample Raspberry Pi code for SX1255 control can be found [here](https://github.com/M17-Project/LinHT-utils/tree/main/sx1255).<br>
