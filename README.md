@@ -6,7 +6,8 @@ Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 ![Board preview](./SX1255_HAT-hw.png)
 
 > [!NOTE]
-> In case the TCXO used in the project is not available, `TG2016SMN 32.0000M-MCGNNM0` is a valid replacement.
+> In case the TCXO used in the project is not available, `TG2016SMN 32.0000M-MCGNNM0` is a valid replacement (0.5ppm frequency stability).
+> Alternatively, `ECS-TXO-20CSMV-320-EY` can be used (2.5ppm frequency stability).
 
 ## Usage
 ### RPi sample config code
