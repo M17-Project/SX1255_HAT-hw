@@ -9,6 +9,17 @@ Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 > In case the TCXO used in the project is not available, `TG2016SMN 32.0000M-MCGNNM0` is a valid replacement (0.5ppm frequency stability).
 > Alternatively, `ECS-TXO-20CSMV-320-EY` can be used (2.5ppm frequency stability).
 
+## Basic specifications
+| Parameter                       | Value                                       |
+|---------------------------------|---------------------------------------------|
+| Tuning range                    | 400 to 510MHz (356 to 562MHz out-of-spec)   |
+| RF output power                 | +5dBm typ. (1dB compression point)          |
+| Baseband interface              | I2S (master)                                |
+| Frequency synthesizer step size | ~30.5Hz                                     |
+| RX gain range                   | 70dB                                        |
+
+See the [SX1255 datasheet](https://www.semtech.com/products/wireless-rf/lora-core/sx1255) for more detaiils.
+
 ## Usage
 ### RPi sample config code
 Sample Raspberry Pi code for SX1255 control can be found [here](https://github.com/M17-Project/LinHT-utils/tree/main/sx1255).<br>
