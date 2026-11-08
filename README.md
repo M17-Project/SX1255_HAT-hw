@@ -3,7 +3,36 @@
 # SX1255_HAT-hw
 Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 
-![Board preview](./SX1255_HAT-hw.png)
+Revision B. Work in progress. Do not order.
+
+## Revision B
+
+Revision B is for series production. Changes from revision A:
+
+- All parts come from the shared [M17 KiCad library](https://github.com/M17-Project/M17_kicad_library)
+  (git submodule `lib/`). Each part has its manufacturer, MPN, Mouser and LCSC numbers.
+- 4 layer board, JLCPCB stackup `JLC04101H-7628` (1.0 mm). The RF lines are 50 Ω
+  grounded coplanar waveguides on the top layer over a ground plane.
+- Passive parts are 0402. The RF inductors and capacitors are Murata high Q parts.
+- ID EEPROM (AT24C32D, address 0x50) for the Raspberry Pi HAT format.
+  The ID_SD and ID_SC pull-ups are 3.9 kΩ and the WP pull-up is 1 kΩ, as the
+  Raspberry Pi HAT design guide specifies. Connect test point TP4 (WP) to TP5 (GND) to write the EEPROM.
+- The RF supply (+3V3_RF) comes from a low noise LDO (TPS7A2033) on the 5 V pins of the GPIO header.
+- A 100 pF capacitor connects the TCXO output to the SX1255 XTB pin, as in the Semtech reference design.
+- Low cost Adam Tech RF2-04A-T-00-50-G SMA connectors, as in revision A.
+
+The GPIO header pinout is the same as in revision A.
+
+| Signal | GPIO header pin | Raspberry Pi function |
+|---|---|---|
+| SX1255 SCK, MOSI, MISO | 23, 19, 21 | SPI0 |
+| SX1255 NSS | 24 | SPI0 CE0 (GPIO8) |
+| SX1255 RESET | 22 | GPIO25 |
+| SX1255 CK_OUT | 12 | PCM CLK (GPIO18) |
+| SX1255 DIO2 | 35 | PCM FS (GPIO19) |
+| SX1255 I_OUT | 38 | PCM DIN (GPIO20) |
+| SX1255 I_IN | 40 | PCM DOUT (GPIO21) |
+| ID EEPROM | 27, 28 | ID_SD, ID_SC |
 
 > [!NOTE]
 > In case the TCXO used in the project is not available, `TG2016SMN 32.0000M-MCGNNM0` is a valid replacement (0.5ppm frequency stability).
@@ -18,7 +47,40 @@ Raspberry Pi Zero shield with the SX1255 RF transceiver chip.
 | Frequency synthesizer step size | ~30.5Hz                                     |
 | RX gain range                   | 70dB                                        |
 
-See the [SX1255 datasheet](https://www.semtech.com/products/wireless-rf/lora-core/sx1255) for more detaiils.
+See the [SX1255 datasheet](https://www.semtech.com/products/wireless-rf/lora-core/sx1255) for more details.
+
+## Get the files
+
+Clone the repository with the library submodule:
+
+```sh
+git clone --recursive https://github.com/M17-Project/SX1255_HAT-hw.git
+```
+
+If you cloned without `--recursive`, get the library:
+
+```sh
+git submodule update --init
+```
+
+## Build
+
+Install KiCad 10 and KiKit. Then run:
+
+```sh
+make
+```
+
+The build checks the design first. Any ERC or DRC violation stops the build.
+Each part on the BOM must have a Mouser number. The outputs are in `build/`.
+
+To use the same tools as the CI, run the build in Docker:
+
+```sh
+make docker
+```
+
+To update the library, run `make lib-update`.
 
 ## Usage
 ### RPi sample config code

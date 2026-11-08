@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-26.04
+    container:
+      image: ghcr.io/slintak/kicad-builder:10.0.7
+    steps:
+      - name: Check out the repository and the library
+        uses: actions/checkout@v7
+        with:
+          submodules: true
+
+      - name: Show the tool versions
+        run: |
+          kicad-cli version
+          kikit --version
+
+      - name: Check and build
+        run: make all
+
+      - name: Upload the outputs
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: SX1255_HAT-hw
+          path: build/
+          if-no-files-found: error
