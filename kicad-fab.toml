@@ -1,0 +1,16 @@
+# kicad-fab (kicad-builder) settings for this board.
+boards = 10
+
+[assembly]
+# The SMA connectors and the 2x20 socket are shipped loose and soldered by hand.
+exclude = ["J1", "J2", "J3"]
+
+[panel]
+file = "panel.json"
+vcut_layer = "User.Comments"
+designators = "unique"
+
+[order]
+# JLCPCB 4 layer stackup used for the 50 ohm GCPW net class.
+stackup = "JLC04101H-7628"
+thickness = "1.0 mm"

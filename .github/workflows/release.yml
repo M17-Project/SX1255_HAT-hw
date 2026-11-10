@@ -1,0 +1,15 @@
+# A tag on the default branch (for example revB) makes a GitHub release with the
+# renders and a ZIP of all fabrication files.
+name: Release
+
+on:
+  push:
+    tags: ["rev*", "v*"]
+
+jobs:
+  release:
+    uses: slintak/kicad-builder/.github/workflows/release-board.yml@v1.0.1
+    with:
+      image: ghcr.io/slintak/kicad-builder:10.0.8-1.0.1
+    permissions:
+      contents: write

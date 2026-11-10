@@ -1,4 +1,10 @@
 (sym_lib_table
   (version 7)
-  (lib (name "SX1255IWLTRT")(type "KiCad")(uri "${KIPRJMOD}/parts/SX1255IWLTRT.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_Graphics")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Graphics.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_ICs")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_ICs.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Mechanical.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_Passives")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Passives.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_Power")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Power.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_RF")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_RF.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_Semiconductors")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Semiconductors.kicad_sym")(options "")(descr ""))
 )
