@@ -6,7 +6,7 @@ on:
 
 jobs:
   fab:
-    uses: slintak/kicad-builder/.github/workflows/board.yml@v1.0.0
+    uses: slintak/kicad-builder/.github/workflows/board.yml@v1.0.1
     with:
-      image: ghcr.io/slintak/kicad-builder:10.0.8-1.0.0
+      image: ghcr.io/slintak/kicad-builder:10.0.8-1.0.1
       artifact-name: SX1255_HAT-hw

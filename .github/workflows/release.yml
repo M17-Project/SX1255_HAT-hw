@@ -8,8 +8,8 @@ on:
 
 jobs:
   release:
-    uses: slintak/kicad-builder/.github/workflows/release-board.yml@v1.0.0
+    uses: slintak/kicad-builder/.github/workflows/release-board.yml@v1.0.1
     with:
-      image: ghcr.io/slintak/kicad-builder:10.0.8-1.0.0
+      image: ghcr.io/slintak/kicad-builder:10.0.8-1.0.1
     permissions:
       contents: write
