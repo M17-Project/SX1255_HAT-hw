@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "type": "grid", "rows": "2", "cols": "2", "rotation": "0deg", "alternation": "none",
+    "hspace": "2mm", "vspace": "2mm", "hbackbone": "0mm", "vbackbone": "0mm",
+    "renameref": "{orig}"
+  },
+  "tabs": {
+    "type": "fixed", "hcount": "1", "vcount": "1", "hwidth": "10mm", "vwidth": "15mm",
+    "mindistance": "0mm", "fillet": "0mm"
+  },
+  "cuts": {
+    "type": "vcuts", "clearance": "1mm", "layer": "Cmts.User",
+    "endprolongation": "3mm", "textprolongation": "3mm"
+  },
+  "framing": { "type": "railstb", "width": "7.7mm", "space": "2mm" },
+  "post": { "type": "auto", "millradius": "1mm" },
+  "tooling": {
+    "type": "3hole", "size": "1.152mm", "hoffset": "5mm", "voffset": "3.85mm",
+    "paste": false, "soldermaskmargin": "1.3mm"
+  },
+  "fiducials": {
+    "type": "3fid", "coppersize": "1mm", "opening": "2mm", "hoffset": "15mm", "voffset": "3.85mm"
+  },
+  "text": {
+    "type": "simple", "text": "SX1255_HAT-hw rev B | {date}", "anchor": "mt",
+    "voffset": "3.85mm", "hjustify": "center", "vjustify": "center",
+    "layer": "F.SilkS", "width": "1.5mm", "height": "1.5mm", "thickness": "0.2mm"
+  },
+  "copperfill": {
+    "type": "hatched", "layers": "F.Cu,In1.Cu,In2.Cu,B.Cu",
+    "clearance": "0.5mm", "edgeclearance": "0.5mm", "width": "1mm", "spacing": "1mm", "orientation": "45deg"
+  }
+}
