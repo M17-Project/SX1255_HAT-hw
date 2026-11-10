@@ -1,6 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "M17_Connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/M17_Connectors.pretty")(options "")(descr ""))
+  (lib (name "M17_Graphics")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/M17_Graphics.pretty")(options "")(descr ""))
   (lib (name "M17_ICs")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/M17_ICs.pretty")(options "")(descr ""))
   (lib (name "Capacitor_SMD")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr "KiCad library"))
   (lib (name "Connector_Coaxial")(type "KiCad")(uri "${KICAD10_FOOTPRINT_DIR}/Connector_Coaxial.pretty")(options "")(descr "KiCad library"))

@@ -1,5 +1,6 @@
 (sym_lib_table
   (version 7)
+  (lib (name "M17_Graphics")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Graphics.kicad_sym")(options "")(descr ""))
   (lib (name "M17_ICs")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_ICs.kicad_sym")(options "")(descr ""))
   (lib (name "M17_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Mechanical.kicad_sym")(options "")(descr ""))
   (lib (name "M17_Passives")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/M17_Passives.kicad_sym")(options "")(descr ""))
