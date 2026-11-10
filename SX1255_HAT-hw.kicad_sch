@@ -72,6 +72,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "AT24C32D AT24C32D-STUM-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Microchip Technology"
 				(at 0 0 0)
 				(show_name no)
@@ -215,28 +237,6 @@
 					)
 				)
 			)
-			(property "ki_keywords" "AT24C32D AT24C32D-STUM-T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "EEPROM-AT24C32D-STUM-T_1_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -342,7 +342,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M17_ICs:LDO-TPS7A2033PDBVR"
+		(symbol "M17_ICs:LDO-LP5907MFX-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -358,7 +358,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS7A2033"
+			(property "Value" "LP5907MFX-3.3"
 				(at 6.35 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -379,7 +379,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5907.pdf"
 				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -390,7 +390,29 @@
 					)
 				)
 			)
-			(property "Description" "Low noise 3.3V 300mA LDO with active discharge, SOT-23-5"
+			(property "Description" "Ultra low noise 3.3V 250mA LDO with active discharge, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LP5907MFX-3.3 LP5907MFX-3.3/NOPB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -412,7 +434,7 @@
 					)
 				)
 			)
-			(property "MPN" "TPS7A2033PDBVR"
+			(property "MPN" "LP5907MFX-3.3/NOPB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -423,7 +445,7 @@
 					)
 				)
 			)
-			(property "Mouser" "595-TPS7A2033PDBVR"
+			(property "Mouser" "595-LP5907MFX-3.3NPB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -434,7 +456,51 @@
 					)
 				)
 			)
-			(property "LCSC" "C2862740"
+			(property "LCSC" "C80670"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Manufacturer" "onsemi, Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt MPN" "NCP163ASN330T1G, TPS7A2033PDBVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Mouser" "863-NCP163ASN330T1G, 595-TPS7A2033PDBVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt LCSC" "C603656, C2862740"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -456,7 +522,7 @@
 					)
 				)
 			)
-			(property "Active_discharge" "150R_typ"
+			(property "Active_discharge" "230R_typ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -467,7 +533,7 @@
 					)
 				)
 			)
-			(property "Dropout" "145mV_max@300mA"
+			(property "Dropout" "250mV_max@250mA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -478,7 +544,7 @@
 					)
 				)
 			)
-			(property "Enable" "active_high_500k_smart_pulldown"
+			(property "Enable" "active_high_1M_pulldown"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -489,7 +555,7 @@
 					)
 				)
 			)
-			(property "Input_capacitor" "0.47uF_effective_min_1uF_nominal"
+			(property "Input_capacitor" "1uF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -500,7 +566,7 @@
 					)
 				)
 			)
-			(property "Input_voltage" "1.6V-6.0V"
+			(property "Input_voltage" "2.2V-5.5V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -511,7 +577,7 @@
 					)
 				)
 			)
-			(property "Noise" "7uVrms_typ"
+			(property "Noise" "6.5uVrms_typ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -522,7 +588,7 @@
 					)
 				)
 			)
-			(property "Output_capacitor" "0.47uF_effective_min_200uF_max_1uF_nominal"
+			(property "Output_capacitor" "1uF_low_ESR_min"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -533,7 +599,7 @@
 					)
 				)
 			)
-			(property "Output_current" "300mA"
+			(property "Output_current" "250mA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -566,7 +632,7 @@
 					)
 				)
 			)
-			(property "Psrr" "95dB@1kHz"
+			(property "Psrr" "82dB@1kHz"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -577,7 +643,7 @@
 					)
 				)
 			)
-			(property "Quiescent_current" "6.5uA_typ"
+			(property "Quiescent_current" "12uA_typ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -588,7 +654,7 @@
 					)
 				)
 			)
-			(property "Thermal_resistance" "187.1C_per_W_RthetaJA"
+			(property "Thermal_resistance" "193.4C_per_W_RthetaJA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -599,29 +665,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TPS7A2033 TPS7A2033PDBVR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LDO-TPS7A2033PDBVR_0_1"
+			(symbol "LDO-LP5907MFX-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 5.08)
@@ -1059,6 +1103,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "SMA RF2-04A-T-00-50-G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Adam Tech"
 				(at 0 0 0)
 				(show_name no)
@@ -1126,28 +1192,6 @@
 				)
 			)
 			(property "Package" "THT_vertical"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMA RF2-04A-T-00-50-G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1322,6 +1366,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "GPIO M20-7832046"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Harwin"
 				(at 0 0 0)
 				(show_name no)
@@ -1400,28 +1466,6 @@
 				)
 			)
 			(property "Plating" "tin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "GPIO M20-7832046"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2673,17 +2717,6 @@
 					)
 				)
 			)
-			(property "Type" "mounting_hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "MountingHole"
 				(at 0 0 0)
 				(show_name no)
@@ -2696,6 +2729,17 @@
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "mounting_hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2807,17 +2851,6 @@
 					)
 				)
 			)
-			(property "Type" "test_point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "TestPoint"
 				(at 0 0 0)
 				(show_name no)
@@ -2830,6 +2863,17 @@
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "test_point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2942,6 +2986,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "100nF CL05B104KB54PNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
@@ -3041,28 +3107,6 @@
 					)
 				)
 			)
-			(property "ki_keywords" "100nF CL05B104KB54PNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "CAP-100N-50V-0402-X7R_0_1"
 				(polyline
 					(pts
@@ -3129,7 +3173,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M17_Passives:CAP-10U-50V-0805-X5R"
+		(symbol "M17_Passives:CAP-10U-25V-0805-X5R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3185,7 +3229,29 @@
 					)
 				)
 			)
-			(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+			(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "10uF CL21A106KAYNNNE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3207,7 +3273,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL21A106KBYQNNE"
+			(property "MPN" "CL21A106KAYNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3218,7 +3284,7 @@
 					)
 				)
 			)
-			(property "Mouser" "187-CL21A106KBYQNNE"
+			(property "Mouser" "187-CL21A106KAYNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3229,7 +3295,51 @@
 					)
 				)
 			)
-			(property "LCSC" "C2932476"
+			(property "LCSC" "C15850"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Manufacturer" "Taiyo Yuden"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt MPN" "TMK212BBJ106KG-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt LCSC" "C386085"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3284,7 +3394,7 @@
 					)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Voltage" "25V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3295,29 +3405,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "10uF CL21A106KBYQNNE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CAP-10U-50V-0805-X5R_0_1"
+			(symbol "CAP-10U-25V-0805-X5R_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -3343,7 +3431,7 @@
 					)
 				)
 			)
-			(symbol "CAP-10U-50V-0805-X5R_1_1"
+			(symbol "CAP-10U-25V-0805-X5R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3450,6 +3538,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "1uF CL05A105KA5NQNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
@@ -3539,28 +3649,6 @@
 				)
 			)
 			(property "Voltage" "25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1uF CL05A105KA5NQNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3704,6 +3792,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "100pF GCM1555C2A101GE02D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
@@ -3793,28 +3903,6 @@
 				)
 			)
 			(property "Voltage" "100V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "100pF GCM1555C2A101GE02D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3958,6 +4046,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "27pF GJM1555C1H270FB01D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
@@ -4047,28 +4157,6 @@
 				)
 			)
 			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "27pF GJM1555C1H270FB01D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4212,6 +4300,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "33pF GJM1555C1H330FB01D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
@@ -4301,28 +4411,6 @@
 				)
 			)
 			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "33pF GJM1555C1H330FB01D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4464,6 +4552,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "600R@100MHz BLM15PX601SN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
@@ -4586,28 +4696,6 @@
 				)
 			)
 			(property "Tolerance" "±25%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "600R@100MHz BLM15PX601SN1D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4762,6 +4850,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "39nH LQW15AN39NG00D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
@@ -4785,6 +4895,50 @@
 				)
 			)
 			(property "Mouser" "81-LQW15AN39NG00D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt MPN" "LQW15AN39NH00D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Mouser" "81-LQW15AN39NH00D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt LCSC" "C913698"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4884,28 +5038,6 @@
 				)
 			)
 			(property "Tolerance" "±2%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "39nH LQW15AN39NG00D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5072,6 +5204,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "82nH LQW15AN82NG00D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 0 0 0)
 				(show_name no)
@@ -5194,28 +5348,6 @@
 				)
 			)
 			(property "Tolerance" "±2%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "82nH LQW15AN82NG00D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5381,6 +5513,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "120R 0402WGF1200TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 				(at 0 0 0)
 				(show_name no)
@@ -5459,28 +5613,6 @@
 				)
 			)
 			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "120R 0402WGF1200TCE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5609,6 +5741,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "1k 0402WGF1001TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 				(at 0 0 0)
 				(show_name no)
@@ -5687,28 +5841,6 @@
 				)
 			)
 			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "1k 0402WGF1001TCE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5837,6 +5969,28 @@
 					)
 				)
 			)
+			(property "ki_keywords" "3.9k 0402WGF3901TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 				(at 0 0 0)
 				(show_name no)
@@ -5915,28 +6069,6 @@
 				)
 			)
 			(property "Voltage" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "3.9k 0402WGF3901TCE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6068,7 +6200,7 @@
 					)
 				)
 			)
-			(property "Type" "power"
+			(property "ki_keywords" "GND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6079,7 +6211,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "GND"
+			(property "Type" "power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6194,7 +6326,7 @@
 					)
 				)
 			)
-			(property "Type" "power"
+			(property "ki_keywords" "+3V3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6205,7 +6337,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "+3V3"
+			(property "Type" "power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6344,7 +6476,7 @@
 					)
 				)
 			)
-			(property "Type" "power"
+			(property "ki_keywords" "+5V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6355,7 +6487,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "+5V"
+			(property "Type" "power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6494,7 +6626,7 @@
 					)
 				)
 			)
-			(property "Type" "power"
+			(property "ki_keywords" "PWR_FLAG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6505,7 +6637,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "PWR_FLAG"
+			(property "Type" "power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10176,7 +10308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_Passives:CAP-10U-50V-0805-X5R")
+		(lib_id "M17_Passives:CAP-10U-25V-0805-X5R")
 		(at 248.92 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -10231,7 +10363,7 @@
 				)
 			)
 		)
-		(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+		(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10253,7 +10385,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE"
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -10264,7 +10396,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KBYQNNE"
+		(property "Mouser" "187-CL21A106KAYNNNE"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -10275,7 +10407,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932476"
+		(property "LCSC" "C15850"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -10330,11 +10462,55 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Manufacturer" "Taiyo Yuden"
+			(at 248.92 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "TMK212BBJ106KG-T"
+			(at 248.92 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+			(at 248.92 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C386085"
+			(at 248.92 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_Passives:CAP-10U-50V-0805-X5R")
+		(lib_id "M17_Passives:CAP-10U-25V-0805-X5R")
 		(at 204.47 53.34 0)
 		(mirror y)
 		(unit 1)
@@ -10501,7 +10677,7 @@
 				)
 			)
 		)
-		(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+		(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
 			(at 204.47 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10523,7 +10699,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE"
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 204.47 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -10534,7 +10710,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KBYQNNE"
+		(property "Mouser" "187-CL21A106KAYNNNE"
 			(at 204.47 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -10545,7 +10721,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932476"
+		(property "LCSC" "C15850"
 			(at 204.47 53.34 0)
 			(hide yes)
 			(show_name yes)
@@ -10600,11 +10776,55 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 204.47 53.34 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Manufacturer" "Taiyo Yuden"
+			(at 204.47 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "TMK212BBJ106KG-T"
+			(at 204.47 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+			(at 204.47 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C386085"
+			(at 204.47 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13623,6 +13843,50 @@
 				)
 			)
 		)
+		(property "Alt Manufacturer" "Murata Electronics"
+			(at 127 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "LQW15AN39NH00D"
+			(at 127 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "81-LQW15AN39NH00D"
+			(at 127 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C913698"
+			(at 127 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "30869e8c-fb1e-4aeb-af71-0f8909100cc6")
 		)
@@ -15805,7 +16069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_ICs:LDO-TPS7A2033PDBVR")
+		(lib_id "M17_ICs:LDO-LP5907MFX-3.3")
 		(at 237.49 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -15826,7 +16090,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A2033"
+		(property "Value" "LP5907MFX-3.3"
 			(at 237.49 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15847,7 +16111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5907.pdf"
 			(at 237.49 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15858,7 +16122,7 @@
 				)
 			)
 		)
-		(property "Description" "Low noise 3.3V 300mA LDO with active discharge, SOT-23-5"
+		(property "Description" "Ultra low noise 3.3V 250mA LDO with active discharge, SOT-23-5"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15880,7 +16144,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPS7A2033PDBVR"
+		(property "MPN" "LP5907MFX-3.3/NOPB"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15891,7 +16155,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-TPS7A2033PDBVR"
+		(property "Mouser" "595-LP5907MFX-3.3NPB"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15902,7 +16166,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2862740"
+		(property "LCSC" "C80670"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15924,7 +16188,7 @@
 				)
 			)
 		)
-		(property "Active_discharge" "150R_typ"
+		(property "Active_discharge" "230R_typ"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15935,7 +16199,7 @@
 				)
 			)
 		)
-		(property "Dropout" "145mV_max@300mA"
+		(property "Dropout" "250mV_max@250mA"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15946,7 +16210,7 @@
 				)
 			)
 		)
-		(property "Enable" "active_high_500k_smart_pulldown"
+		(property "Enable" "active_high_1M_pulldown"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15957,7 +16221,7 @@
 				)
 			)
 		)
-		(property "Input_capacitor" "0.47uF_effective_min_1uF_nominal"
+		(property "Input_capacitor" "1uF"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15968,7 +16232,7 @@
 				)
 			)
 		)
-		(property "Input_voltage" "1.6V-6.0V"
+		(property "Input_voltage" "2.2V-5.5V"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15979,7 +16243,7 @@
 				)
 			)
 		)
-		(property "Noise" "7uVrms_typ"
+		(property "Noise" "6.5uVrms_typ"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -15990,7 +16254,7 @@
 				)
 			)
 		)
-		(property "Output_capacitor" "0.47uF_effective_min_200uF_max_1uF_nominal"
+		(property "Output_capacitor" "1uF_low_ESR_min"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -16001,7 +16265,7 @@
 				)
 			)
 		)
-		(property "Output_current" "300mA"
+		(property "Output_current" "250mA"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -16034,7 +16298,7 @@
 				)
 			)
 		)
-		(property "Psrr" "95dB@1kHz"
+		(property "Psrr" "82dB@1kHz"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -16045,7 +16309,7 @@
 				)
 			)
 		)
-		(property "Quiescent_current" "6.5uA_typ"
+		(property "Quiescent_current" "12uA_typ"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
@@ -16056,11 +16320,55 @@
 				)
 			)
 		)
-		(property "Thermal_resistance" "187.1C_per_W_RthetaJA"
+		(property "Thermal_resistance" "193.4C_per_W_RthetaJA"
 			(at 237.49 50.8 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Manufacturer" "onsemi, Texas Instruments"
+			(at 237.49 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "NCP163ASN330T1G, TPS7A2033PDBVR"
+			(at 237.49 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "863-NCP163ASN330T1G, 595-TPS7A2033PDBVR"
+			(at 237.49 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C603656, C2862740"
+			(at 237.49 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)

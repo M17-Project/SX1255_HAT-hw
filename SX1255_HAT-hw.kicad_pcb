@@ -1472,7 +1472,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A2033"
+		(property "Value" "LP5907MFX-3.3"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1484,7 +1484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp5907.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1495,7 +1495,7 @@
 				)
 			)
 		)
-		(property "Description" "Low noise 3.3V 300mA LDO with active discharge, SOT-23-5"
+		(property "Description" "Ultra low noise 3.3V 250mA LDO with active discharge, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1530,7 +1530,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPS7A2033PDBVR"
+		(property "MPN" "LP5907MFX-3.3/NOPB"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1542,7 +1542,7 @@
 				)
 			)
 		)
-		(property "Mouser" "595-TPS7A2033PDBVR"
+		(property "Mouser" "595-LP5907MFX-3.3NPB"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1554,7 +1554,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2862740"
+		(property "LCSC" "C80670"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1578,7 +1578,7 @@
 				)
 			)
 		)
-		(property "Active_discharge" "150R_typ"
+		(property "Active_discharge" "230R_typ"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1590,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Dropout" "145mV_max@300mA"
+		(property "Dropout" "250mV_max@250mA"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1602,7 +1602,7 @@
 				)
 			)
 		)
-		(property "Enable" "active_high_500k_smart_pulldown"
+		(property "Enable" "active_high_1M_pulldown"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1614,7 +1614,7 @@
 				)
 			)
 		)
-		(property "Input_capacitor" "0.47uF_effective_min_1uF_nominal"
+		(property "Input_capacitor" "1uF"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1626,7 +1626,7 @@
 				)
 			)
 		)
-		(property "Input_voltage" "1.6V-6.0V"
+		(property "Input_voltage" "2.2V-5.5V"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1638,7 +1638,7 @@
 				)
 			)
 		)
-		(property "Noise" "7uVrms_typ"
+		(property "Noise" "6.5uVrms_typ"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1650,7 +1650,7 @@
 				)
 			)
 		)
-		(property "Output_capacitor" "0.47uF_effective_min_200uF_max_1uF_nominal"
+		(property "Output_capacitor" "1uF_low_ESR_min"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1662,7 +1662,7 @@
 				)
 			)
 		)
-		(property "Output_current" "300mA"
+		(property "Output_current" "250mA"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1698,7 +1698,7 @@
 				)
 			)
 		)
-		(property "Psrr" "95dB@1kHz"
+		(property "Psrr" "82dB@1kHz"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1710,7 +1710,7 @@
 				)
 			)
 		)
-		(property "Quiescent_current" "6.5uA_typ"
+		(property "Quiescent_current" "12uA_typ"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1722,7 +1722,7 @@
 				)
 			)
 		)
-		(property "Thermal_resistance" "187.1C_per_W_RthetaJA"
+		(property "Thermal_resistance" "193.4C_per_W_RthetaJA"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1735,6 +1735,50 @@
 			)
 		)
 		(property ki_fp_filters "*SOT?23*")
+		(property "Alt Manufacturer" "onsemi, Texas Instruments"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "089f12d7-1847-4a27-84d4-46d84e2602dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "NCP163ASN330T1G, TPS7A2033PDBVR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bc46f7c-125e-4162-9fff-981aeefda7cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "863-NCP163ASN330T1G, 595-TPS7A2033PDBVR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0e09706-1bae-4b0c-bf88-4bbc8fbfe51f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C603656, C2862740"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd89cbac-3534-4c3e-a0f7-05623cda4a5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/994a6ef3-1876-5dbf-a4eb-a5dc01adb2b8")
 		(sheetname "/")
 		(sheetfile "SX1255_HAT-hw.kicad_sch")
@@ -3507,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+		(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3542,7 +3586,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE"
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3554,7 +3598,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KBYQNNE"
+		(property "Mouser" "187-CL21A106KAYNNNE"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3566,7 +3610,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932476"
+		(property "LCSC" "C15850"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3626,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3639,6 +3683,50 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(property "Alt Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd5cd873-c197-443d-bf08-a8af73772f23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "TMK212BBJ106KG-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea542c8a-5ec4-4bab-8745-5bc8dc9a6520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f32e95-7055-4d45-b6a9-bd234a5b8eb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C386085"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfbe665a-64b5-4765-838b-e34fd5f85b8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/0b41489a-4717-5acd-9518-62e0d1a27a6a")
 		(sheetname "/")
 		(sheetfile "SX1255_HAT-hw.kicad_sch")
@@ -5527,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+		(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5562,7 +5650,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE"
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5574,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KBYQNNE"
+		(property "Mouser" "187-CL21A106KAYNNNE"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5586,7 +5674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932476"
+		(property "LCSC" "C15850"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5646,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5659,6 +5747,50 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(property "Alt Manufacturer" "Taiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccfdd1bc-5e2d-41cc-a11c-0b8071a2402e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "TMK212BBJ106KG-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bcddae5-326f-40f6-b0f4-27392b74524c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8578a463-89a3-4083-9af2-7ff5f45013d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C386085"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67d6641f-86a0-4069-9e31-64e321e86312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/0504fb17-2b07-5b72-be52-89cc40c3c6e9")
 		(sheetname "/")
 		(sheetfile "SX1255_HAT-hw.kicad_sch")
@@ -12663,6 +12795,50 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(property "Alt Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "633a9077-a706-4839-8a5f-18595d924c0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "LQW15AN39NH00D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f5e1da8-7a48-4500-ad84-a14b713421c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "81-LQW15AN39NH00D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0695f26e-cd1e-419a-8c35-62b34ebaf223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C913698"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69570d6c-9cbf-4c4a-a3fb-ee9e367d0c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/5b0bd1b9-9137-5ddb-b447-d399df12aa73")
 		(sheetname "/")
 		(sheetfile "SX1255_HAT-hw.kicad_sch")

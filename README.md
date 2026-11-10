@@ -17,7 +17,8 @@ Revision B is for series production. Changes from revision A:
 - ID EEPROM (AT24C32D, address 0x50) for the Raspberry Pi HAT format.
   The ID_SD and ID_SC pull-ups are 3.9 kΩ and the WP pull-up is 1 kΩ, as the
   Raspberry Pi HAT design guide specifies. Connect test point TP4 (WP) to TP5 (GND) to write the EEPROM.
-- The RF supply (+3V3_RF) comes from a low noise LDO (TPS7A2033) on the 5 V pins of the GPIO header.
+- The RF supply (+3V3_RF) comes from a low noise LDO (LP5907MFX-3.3) on the 5 V pins of the GPIO header.
+  NCP163ASN330T1G and TPS7A2033PDBVR are drop-in alternates.
 - A 100 pF capacitor connects the TCXO output to the SX1255 XTB pin, as in the Semtech reference design.
 - Low cost Adam Tech RF2-04A-T-00-50-G SMA connectors, as in revision A.
 
@@ -73,6 +74,7 @@ make
 
 The build checks the design first. Any ERC or DRC violation stops the build.
 Each part on the BOM must have a Mouser number. The outputs are in `build/`.
+If a part is not in stock, use a drop-in alternate from `build/bom/SX1255_HAT-hw_bom_alternates.csv`.
 
 To use the same tools as the CI, run the build in Docker:
 
